@@ -37,6 +37,9 @@
       display: grid;
       grid-gap: 20px;
       border: 10px solid var(--yellow);
+      /* grid-template-columns: repeat(5, 100px); */
+      grid-template-columns: repeat(auto-fill, 150px); /* splits grid in spaces with that width*/
+      grid-template-columns: repeat(auto-fill, 150px); /*When there are not enough elements it makes them fit t othe number of columns*/
     }
   </style>
 </body>
